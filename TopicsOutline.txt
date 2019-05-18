@@ -1,17 +1,20 @@
 AIL301 Presentation - Natural Language Processing
 
-Main topic: Identifying and Translating Abbreviated Text in Vietnamese
+Main task: Identifying and Translating Abbreviated Text in Vietnamese
 
-Areas to cover in presentation:
+Topics to cover in presentation:
 
 1) Auto-encoder:
+	- This is the most important topic (according to the instructor).
+	Need to focus on the implementation side: Where to get code? How to use it?
+	- Hopefully instructor will have explained the basics of neural networks
+	by the time we present this.
 From Chapter 28 - Deep Learning
 	28.3 Deep neural networks						page 999
 		28.3.1 Deep multi-layer perceptrons
 		28.3.2 Deep auto-encoders
 		28.3.3 Stacked denoising auto-encoders
 	28.4 Applications of deep networks					page 1001
-		28.4.1 Handwritten digit classification using DBNs
 		28.4.2 Data visualization and feature discovery using deep auto-encoders
 		28.4.3 Information retrieval using deep auto-encoders (semantic hashing)	
 
@@ -27,7 +30,9 @@ From Chapter 28 - Deep Learning
 	- https://www.datacamp.com/community/tutorials/lstm-python-stock-market
 	- https://stackabuse.com/time-series-analysis-with-lstm-using-pythons-keras-library/
 
-3) Bayesian learning algos, Naive Bayes, Bernoulli model:
+3) Bayesian learning algos, Naive Bayes, Bernoulli (binomial) model:
+	- Let's try to figure out where this topic fit in the picture of our task.
+	If we cannot figure it out precisely, just present this topic separately.
 From Chapter 3 - Generative models for discrete data
 	3.2 Bayesian Concept Learning						page 65
 		3.2.1 Likelihood
@@ -37,25 +42,25 @@ From Chapter 3 - Generative models for discrete data
 		3.2.5 A more complex prior		
 	3.5 Naive Bayes classifiers (multivariate Bernoulli naive Bayes)	page 82
 		3.5.1 Model fitting
-			3.5.1.1 MLE for NBC
+			3.5.1.1 MLE (maximum likelihood estimate) for NBC (naive Bayes classifiers)
 			3.5.1.2 Bayesian naive Bayes
 		3.5.2 Using the model for prediction
 		3.5.3 The log-sum-exp trick
 		3.5.4 Feature selection using mutual information
-		3.5.5 Classifying documents using bag of words		
+		3.5.5 Classifying documents using bag of words (Bernoulli product model)	
 		
 4) Conditional Random Field (CRF):
+	- To fully understand, probably need to understand basics of 
+	Markov Random Fields (MRFs) first.
+	- Otherwise just present this in the implementer's point of view.
+	Where to get code from? How to use it?
 From Chapter 19 - Undirected graphical models (Markov random fields)
 	19.6 Conditional random fields (CRFs)					page 684
 		19.6.1 Chain-structured CRFs, MEMMs and the label-bias problem
 		19.6.2 Applications of CRFs
-			19.6.2.1 Handwriting recognition
 			19.6.2.2 Noun phrase chunking
 			19.6.2.3 Named entity recognition
 			19.6.2.4 Natural language parsing
-			19.6.2.5 Hierarchical classification
-			19.6.2.6 Protein side-chain prediction
-			19.6.2.7 Stereo vision
 		19.6.3 CRF training
 
 5) Data augmentation: (not in textbook)
