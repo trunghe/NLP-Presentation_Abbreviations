@@ -4,33 +4,8 @@ Main task: Identifying and Translating Abbreviated Text in Vietnamese
 
 Topics to cover in presentation:
 
-1) Auto-encoder:
-	- This is the most important topic (according to the instructor).
-	Need to focus on the implementation side: Where to get code? How to use it?
-	- Hopefully instructor will have explained the basics of neural networks
-	by the time we present this.
-From Chapter 28 - Deep Learning
-	28.3 Deep neural networks						page 999
-		28.3.1 Deep multi-layer perceptrons
-		28.3.2 Deep auto-encoders
-		28.3.3 Stacked denoising auto-encoders
-	28.4 Applications of deep networks					page 1001
-		28.4.2 Data visualization and feature discovery using deep auto-encoders
-		28.4.3 Information retrieval using deep auto-encoders (semantic hashing)	
-
-2) Long Short-Term Memory (LSTM) Model: (not in textbook)
-	- https://www.coursera.org/lecture/machine-learning-duke/long-short-term-memory-V9e4E
-	- Seems that LSTM model is a special kind of Recurrent Neural Network (RNN)
-	- Mentioned in 16.5.2 (page 568) and 17.2.2 (page 591)
-	- https://www.foundationai.org/deep-learning-and-long-short-term-memory-networks/
-	- https://medium.com/@aradzinski/short-term-memory-in-natural-language-processing-5e85b2731c36
-	- https://skymind.ai/wiki/lstm
-	- https://aclweb.org/anthology/D16-1053
-	- https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/
-	- https://www.datacamp.com/community/tutorials/lstm-python-stock-market
-	- https://stackabuse.com/time-series-analysis-with-lstm-using-pythons-keras-library/
-
-3) Bayesian learning algos, Naive Bayes, Bernoulli (binomial) model:
+Monday 03/06 - Quang and Trung
+1) Bayesian learning algos, Naive Bayes, Bernoulli (binomial) model:
 	- Let's try to figure out where this topic fit in the picture of our task.
 	If we cannot figure it out precisely, just present this topic separately.
 From Chapter 3 - Generative models for discrete data
@@ -47,9 +22,10 @@ From Chapter 3 - Generative models for discrete data
 		3.5.2 Using the model for prediction
 		3.5.3 The log-sum-exp trick
 		3.5.4 Feature selection using mutual information
-		3.5.5 Classifying documents using bag of words (Bernoulli product model)	
-		
-4) Conditional Random Field (CRF):
+		3.5.5 Classifying documents using bag of words (Bernoulli product model)
+
+Monday 10/06 - Quan (and Trung?)
+2) Conditional Random Field (CRF):
 	- To fully understand, probably need to understand basics of 
 	Markov Random Fields (MRFs) first.
 	- Otherwise just present this in the implementer's point of view.
@@ -63,5 +39,34 @@ From Chapter 19 - Undirected graphical models (Markov random fields)
 			19.6.2.4 Natural language parsing
 		19.6.3 CRF training
 
+Monday 17/06 - Chung and Trung
+3) Auto-encoder:
+	- This is the most important topic (according to the instructor).
+	Need to focus on the implementation side: Where to get code? How to use it?
+	- Hopefully instructor will have explained the basics of neural networks
+	by the time we present this.
+From Chapter 28 - Deep Learning
+	28.3 Deep neural networks						page 999
+		28.3.1 Deep multi-layer perceptrons
+		28.3.2 Deep auto-encoders
+		28.3.3 Stacked denoising auto-encoders
+	28.4 Applications of deep networks					page 1001
+		28.4.2 Data visualization and feature discovery using deep auto-encoders
+		28.4.3 Information retrieval using deep auto-encoders (semantic hashing)	
+
+Monday 24/06 - Duc Anh (and Trung?)
+4) Long Short-Term Memory (LSTM) Model: (not in textbook)
+	- https://www.coursera.org/lecture/machine-learning-duke/long-short-term-memory-V9e4E
+	- Seems that LSTM model is a special kind of Recurrent Neural Network (RNN)
+	- Mentioned in 16.5.2 (page 568) and 17.2.2 (page 591)
+	- https://www.foundationai.org/deep-learning-and-long-short-term-memory-networks/
+	- https://medium.com/@aradzinski/short-term-memory-in-natural-language-processing-5e85b2731c36
+	- https://skymind.ai/wiki/lstm
+	- https://aclweb.org/anthology/D16-1053
+	- https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/
+	- https://www.datacamp.com/community/tutorials/lstm-python-stock-market
+	- https://stackabuse.com/time-series-analysis-with-lstm-using-pythons-keras-library/
+
+Monday 01/07 - Trung
 5) Data augmentation: (not in textbook)
 	- Focus only on generating abbreviated Vietnamese words.
