@@ -8,9 +8,11 @@ Monday 03/06 - Quang and Trung
 1) Bayesian learning algos, Naive Bayes, Bernoulli (binomial) model:
 	- Let's try to figure out where this topic fit in the picture of our task.
 	If we cannot figure it out precisely, just present this topic separately.
-From Chapter 2 - Probability
-		2.2.3 Bayes Rule
-			2.2.3.2 Example: Generative classifiers
+
+3 types of Naive Bayes: https://towardsdatascience.com/naive-bayes-classifier-81d512f50a7c
+	Multinomial:	???
+	Bernoulli:	Spam
+	Gaussian:	Diabetes
 			
 From Chapter 3 - Generative models for discrete data
 	3.2 Bayesian Concept Learning						page 65
