@@ -52,11 +52,15 @@ From Chapter 19 - Undirected graphical models (Markov random fields)
 		19.6.3 CRF training
 
 Monday 17/06 - Chung and Trung
-3) Auto-encoder:
+3) Auto-encoder and PCA:
 	- This is the most important topic (according to the instructor).
 	Need to focus on the implementation side: Where to get code? How to use it?
 	- Hopefully instructor will have explained the basics of neural networks
 	by the time we present this.
+PCA:
+	Matrix factorization
+	Singular value decomposition (SVD)
+	Minimum oriented bounding box
 From Chapter 28 - Deep Learning
 	28.3 Deep neural networks						page 999
 		28.3.1 Deep multi-layer perceptrons
